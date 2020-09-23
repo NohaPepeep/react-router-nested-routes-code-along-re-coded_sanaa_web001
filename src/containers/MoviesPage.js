@@ -2,7 +2,6 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 import MoviesList from '../components/MoviesList';
-// import the `MovieShow` component:
 import MovieShow from '../components/MovieShow';
  
 const MoviesPage = ({ match, movies }) => (
